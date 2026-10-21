@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="881px" preserveAspectRatio="none" style="width:1574px;height:881px;background:#FFFFFF;" version="1.1" viewBox="0 0 1574 881" width="1574px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.9395" id="_title" style="stroke:none;stroke-width:1.0;" width="376" x="592" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="366" x="597" y="23.5625">Component Diagram (draft) — AI Test Case Generator</text><!--MD5=[8699c0c8e953ee53654a072cc875bfb4]
+cluster Browser--><g id="cluster_Browser"><polygon fill="none" points="710,53.9395,720,43.9395,940,43.9395,940,160.9395,930,170.9395,710,170.9395,710,53.9395" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="930" x2="940" y1="53.9395" y2="43.9395"/><line style="stroke:#181818;stroke-width:1.0;" x1="710" x2="930" y1="53.9395" y2="53.9395"/><line style="stroke:#181818;stroke-width:1.0;" x1="930" x2="930" y1="53.9395" y2="170.9395"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="792" y="70.502">Browser</text></g><!--MD5=[f8d54e45391231131da80dc19ec34973]
+cluster Application server (Docker Compose)--><g id="cluster_Application server (Docker Compose)"><polygon fill="none" points="16,229.9395,26,219.9395,1471,219.9395,1471,679.4395,1461,689.4395,16,689.4395,16,229.9395" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1461" x2="1471" y1="229.9395" y2="219.9395"/><line style="stroke:#181818;stroke-width:1.0;" x1="16" x2="1461" y1="229.9395" y2="229.9395"/><line style="stroke:#181818;stroke-width:1.0;" x1="1461" x2="1461" y1="229.9395" y2="689.4395"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="257" x="611" y="246.502">Application server (Docker Compose)</text></g><!--MD5=[fac864e77539af95038f0151207ed802]
+cluster API--><g id="cluster_API"><path d="M50.5,367.9395 L344.5,367.9395 A3.75,3.75 0 0 1 347,370.4395 L354,390.8789 L830.5,390.8789 A2.5,2.5 0 0 1 833,393.3789 L833,654.9395 A2.5,2.5 0 0 1 830.5,657.4395 L50.5,657.4395 A2.5,2.5 0 0 1 48,654.9395 L48,370.4395 A2.5,2.5 0 0 1 50.5,367.9395 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="48" x2="354" y1="390.8789" y2="390.8789"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="293" x="52" y="383.502">Backend API (FastAPI) — modular monolith</text></g><!--MD5=[fc09749163e73685c2269c9c377c173d]
+cluster WK--><g id="cluster_WK"><path d="M1109.5,367.4395 L1162.5,367.4395 A3.75,3.75 0 0 1 1165,369.9395 L1172,390.3789 L1444.5,390.3789 A2.5,2.5 0 0 1 1447,392.8789 L1447,646.9395 A2.5,2.5 0 0 1 1444.5,649.4395 L1109.5,649.4395 A2.5,2.5 0 0 1 1107,646.9395 L1107,369.9395 A2.5,2.5 0 0 1 1109.5,367.4395 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1107" x2="1172" y1="390.3789" y2="390.3789"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="1111" y="383.002">Worker</text></g><!--MD5=[a2d7bcf69044874baa7932214c3d5524]
+cluster GPU host (private network)--><g id="cluster_GPU host (private network)"><polygon fill="none" points="1148,764.4395,1158,754.4395,1557,754.4395,1557,854.4395,1547,864.4395,1148,864.4395,1148,764.4395" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1547" x2="1557" y1="764.4395" y2="754.4395"/><line style="stroke:#181818;stroke-width:1.0;" x1="1148" x2="1547" y1="764.4395" y2="764.4395"/><line style="stroke:#181818;stroke-width:1.0;" x1="1547" x2="1547" y1="764.4395" y2="864.4395"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="1256" y="781.002">GPU host (private network)</text></g><!--MD5=[c42ed81cef7fdd2e33758127945b9a5b]
+entity UI--><g id="elem_UI"><rect fill="#F1F1F1" height="70.8184" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="198" x="726" y="83.9395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="119" x="736" y="107.502">1 Web UI (Next.js)</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="178" x="736" y="124.4414">upload · progress · review ·</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="156" x="736" y="141.3809">traceability · export  (C)</text></g><!--MD5=[f72319eafa1db8d458bf75abcfde9fad]
+entity PROXY--><g id="elem_PROXY"><rect fill="#F1F1F1" height="36.9395" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="243" x="703.5" y="259.9395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="223" x="713.5" y="283.502">2 Reverse proxy (Caddy, TLS) (B)</text></g><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><g id="elem_DB"><path d="M857,576.4395 C857,566.4395 974,566.4395 974,566.4395 C974,566.4395 1091,566.4395 1091,576.4395 L1091,636.2578 C1091,646.2578 974,646.2578 974,646.2578 C974,646.2578 857,646.2578 857,636.2578 L857,576.4395 " fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M857,576.4395 C857,586.4395 974,586.4395 974,586.4395 C974,586.4395 1091,586.4395 1091,576.4395 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="198" x="867" y="604.002">13 PostgreSQL + pgvector (B)</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="214" x="867" y="620.9414">users, documents, requirements,</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="208" x="867" y="637.8809">jobs, test_cases, links, audit_log</text></g><!--MD5=[b3b47143243fa1deeb350c407ecae48b]
+entity AUTH--><g id="elem_AUTH"><rect fill="#F1F1F1" height="36.9395" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="72.5" y="419.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="121" x="82.5" y="443.002">3 Auth &amp; Users (B)</text></g><!--MD5=[3fe8ada098bd8d86b449d552b7dfc96a]
+entity DOCS--><g id="elem_DOCS"><rect fill="#F1F1F1" height="36.9395" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="189" x="248.5" y="419.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="169" x="258.5" y="443.002">4 Documents &amp; Parser (B)</text></g><!--MD5=[faa9290a12bb924a565e8b075b0bc3dd]
+entity REQ--><g id="elem_REQ"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="473" y="410.9395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="116" x="483" y="434.502">5 Requirements &amp;</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="130" x="483" y="451.4414">Quality gate (A + B)</text></g><!--MD5=[37cd91f5820fe33f8661a7c705681cf7]
+entity JOBS--><g id="elem_JOBS"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="658.5" y="410.9395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="111" x="668.5" y="434.502">6 Generation API</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="68" x="668.5" y="451.4414">&amp; Jobs (B)</text></g><!--MD5=[38cc8a750472d9fb113fd793c6b6f434]
+entity REV--><g id="elem_REV"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="78.5" y="579.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="73" x="88.5" y="603.002">9 Review &amp;</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="109" x="88.5" y="619.9414">Audit log (C + B)</text></g><!--MD5=[42e0aa433f5472c28d3f623374b4619a]
+entity EXP--><g id="elem_EXP"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="242.5" y="579.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="149" x="252.5" y="603.002">10 Export (CSV, XLSX,</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="125" x="252.5" y="619.9414">Gherkin, JSON) (B)</text></g><!--MD5=[5bb58f447e60c14e9d23282c6a4405f4]
+entity ADM--><g id="elem_ADM"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="92" x="447" y="579.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="71" x="457" y="603.002">11 Admin &amp;</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="72" x="457" y="619.9414">Metrics (B)</text></g><!--MD5=[396b4d68547ccd8d543151651527d7f1]
+entity PIPE--><g id="elem_PIPE"><rect fill="#F1F1F1" height="70.8184" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="167" x="1264.5" y="402.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="85" x="1274.5" y="426.002">7 AI pipeline:</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="147" x="1274.5" y="442.9414">retrieve → generate →</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="134" x="1274.5" y="459.8809">validate → verify (A)</text></g><!--MD5=[749c2e65bcb6767c5b79eb3fd236df60]
+entity PROV--><g id="elem_PROV"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="1248.5" y="579.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="97" x="1258.5" y="603.002">8 LLMProvider</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="82" x="1258.5" y="619.9414">interface (A)</text></g><!--MD5=[cf1966bee45728be87a7caae8fe60794]
+entity EVAL--><g id="elem_EVAL"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="1123" y="410.9395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="86" x="1133" y="434.502">12 Evaluation</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="75" x="1133" y="451.4414">harness (A)</text></g><!--MD5=[762d9b1ee2eb630aa40151fb5f0602e7]
+entity LLM--><g id="elem_LLM"><rect fill="#F1F1F1" height="53.8789" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="203" x="1163.5" y="794.4395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="183" x="1173.5" y="818.002">LLM server (Ollama / vLLM)</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="156" x="1173.5" y="834.9414">OpenAI-compatible API</text></g><!--MD5=[20755b229f40fc54e528bc79438c3556]
+entity EMB--><g id="elem_EMB"><rect fill="#F1F1F1" height="36.9395" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="1401.5" y="802.9395"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="119" x="1411.5" y="826.502">Embedding model</text></g><!--MD5=[d3c29d2b49b19d414a8b350a6feb1095]
+link AUTH to DOCS--><!--MD5=[ae223d2a089eef3772f7736411c8a1a3]
+link DOCS to REQ--><!--MD5=[e9744042ebaef3fb740f653d5b668d6f]
+link REQ to JOBS--><!--MD5=[6b2090f9ffc168b9539cdffcbb9b3073]
+link AUTH to REV--><!--MD5=[b635b37d177e6893672ff5a92d4e2263]
+link REV to EXP--><!--MD5=[ff3830699029d579ffab27ba5c03693d]
+link EXP to ADM--><!--MD5=[70f619010c54a9e4b8e0922d1cebb7f2]
+link UI to PROXY--><g id="link_UI_PROXY"><path d="M825,155.2795 C825,185.4795 825,228.3095 825,254.4095 " fill="none" id="UI-to-PROXY" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="825,259.7095,829,250.7095,825,254.7095,821,250.7095,825,259.7095" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="120" x="826" y="200.5332">HTTPS (REST, SSE)</text></g><!--MD5=[6e66f461ebab4de1c9bbfe32a84f39a1]
+link PROXY to API--><g id="link_PROXY_API"><path d="M825,297.1995 C825,307.337 825,320.9476 825,335.708 C825,343.0883 825,350.756 825,358.4207 C825,360.3369 825,362.2529 825,364.1642 C825,365.1198 825,366.0743 825,367.027 C825,367.2652 825,367.5032 825,367.7412 " fill="none" id="PROXY-to-API" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="825,367.7412,829,358.7412,825,362.7412,821,358.7412,825,367.7412" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="96" x="826" y="340.5332">routes /api/v1/*</text></g><!--MD5=[b874c2a0ce20abc088b74c0c7c933d7a]
+link API to DB--><g id="link_API_DB"><path d="M833.0759,511.2194 C833.1324,511.3837 833.1892,511.5479 833.2463,511.712 C833.3607,512.0402 833.4764,512.3679 833.5937,512.695 C833.8281,513.3494 834.0684,514.0016 834.3147,514.6514 C835.2997,517.2506 836.3804,519.811 837.5655,522.312 C839.9358,527.314 842.7238,532.0782 846,536.4395 C853.7,546.6895 863.37,555.5795 873.94,563.2595 " fill="none" id="API-to-DB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="878.2,566.2495,873.1424,557.7984,874.1112,563.3716,868.5379,564.3404,878.2,566.2495" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="216" x="847" y="525.0332">SQL (each module owns its tables)</text></g><!--MD5=[182b2e1dfc4bea800167a52714ffcd11]
+link JOBS to DB--><g id="link_JOBS_DB"><path d="M721.83,465.3695 C721.53,487.0595 724.74,517.2395 742,536.4395 C750.3,545.6695 800.38,561.0895 851.9,575.0095 " fill="none" id="JOBS-to-DB" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="856.89,576.3495,849.2394,570.1472,852.0619,575.0496,847.1596,577.8722,856.89,576.3495" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="79" x="743" y="525.0332">enqueue job</text></g><!--MD5=[c80ada0a35c55d51e7383a2f0ffad1a4]
+link PIPE to DB--><g id="link_PIPE_DB"><path d="M1264.42,468.1495 C1258.54,469.9995 1252.69,471.7795 1247,473.4395 C1192.56,489.2895 1174.8,480.3795 1123,503.4395 C1103.94,511.9195 1064.43,539.1495 1030.88,563.3495 " fill="none" id="PIPE-to-DB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1026.82,566.2795,1036.4586,564.2552,1030.8741,563.353,1031.7763,557.7686,1026.82,566.2795" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="157" x="1141.5" y="517.0332">claim job (SKIP LOCKED),</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="192" x="1124" y="532.7627">write results in one transaction</text></g><!--MD5=[bd9eb9899c573fac5e3d299d7cae4cb4]
+link PIPE to PROV--><g id="link_PIPE_PROV"><path d="M1339.41,473.8395 C1332.11,503.4695 1321.74,545.5895 1314.71,574.1395 " fill="none" id="PIPE-to-PROV" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1313.44,579.3095,1319.4819,571.5315,1314.6392,574.4554,1311.7154,569.6128,1313.44,579.3095" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cb2e6e93033b31f717d631d9398bdc0f]
+link EVAL to PROV--><g id="link_EVAL_PROV"><path d="M1229.09,464.6195 C1262.47,481.0095 1299.68,499.8395 1302,503.4395 C1315.44,524.2595 1315.7,552.7595 1313.16,574.3395 " fill="none" id="EVAL-to-PROV" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1312.5,579.3895,1317.648,570.9932,1313.1571,574.4328,1309.7174,569.9418,1312.5,579.3895" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0a3853f833882ccb34a71e8099a5889a]
+link PROV to LLM--><g id="link_PROV_LLM"><path d="M1295.83,633.5295 C1288.02,652.9695 1278.12,680.3895 1273,705.4395 C1267.3,733.3295 1265.46,765.7295 1264.96,789.0195 " fill="none" id="PROV-to-LLM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1264.86,794.1395,1269.0137,785.2093,1264.9457,789.1402,1261.0149,785.0722,1264.86,794.1395" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="166" x="1274" y="719.0332">HTTP /v1/chat/completions</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="143" x="1285.5" y="734.7627">(JSON-schema output)</text></g><!--MD5=[005b34937b68f1e7dbc6a5d80f62b6fe]
+link PIPE to EMB--><g id="link_PIPE_EMB"><path d="M1362.31,473.8195 C1382.63,524.2795 1420.16,620.8795 1445,705.4395 C1454.28,737.0295 1462.16,774.3195 1466.74,797.6795 " fill="none" id="PIPE-to-EMB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1467.72,802.7295,1469.9474,793.1358,1466.7752,797.8195,1462.0915,794.6474,1467.72,802.7295" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="77" x="1451" y="603.5332">embeddings</text><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="93" x="1443" y="619.2627">(dedupe, RAG)</text></g><!--MD5=[85b9df51b5fc84b8a884daa22bad2909]
+@startuml 03-component
+' Component diagram (DRAFT for pre-defense-1).
+' Owners: A = Nuraly Abat (AI pipeline & evaluation), B = Sultan Muratbek (backend, data, DevOps), C = Kaisar Yessenov (frontend, UX, QA)
+' Numbers 1-13 = module numbers in the report (section 10.1).
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam component {
+  BackgroundColor #F5F8FC
+  BorderColor #1F3A5F
+}
+
+title Component Diagram (draft) — AI Test Case Generator
+
+node "Browser" {
+  [1 Web UI (Next.js)\nupload · progress · review ·\ntraceability · export  (C)] as UI
+}
+
+node "Application server (Docker Compose)" {
+  [2 Reverse proxy (Caddy, TLS) (B)] as PROXY
+  package "Backend API (FastAPI) — modular monolith" as API {
+    [3 Auth & Users (B)] as AUTH
+    [4 Documents & Parser (B)] as DOCS
+    [5 Requirements &\nQuality gate (A + B)] as REQ
+    [6 Generation API\n& Jobs (B)] as JOBS
+    [9 Review &\nAudit log (C + B)] as REV
+    [10 Export (CSV, XLSX,\nGherkin, JSON) (B)] as EXP
+    [11 Admin &\nMetrics (B)] as ADM
+  }
+  package "Worker" as WK {
+    [7 AI pipeline:\nretrieve → generate →\nvalidate → verify (A)] as PIPE
+    [8 LLMProvider\ninterface (A)] as PROV
+    [12 Evaluation\nharness (A)] as EVAL
+  }
+  database "13 PostgreSQL + pgvector (B)\nusers, documents, requirements,\njobs, test_cases, links, audit_log" as DB
+}
+
+node "GPU host (private network)" {
+  [LLM server (Ollama / vLLM)\nOpenAI-compatible API] as LLM
+  [Embedding model] as EMB
+}
+
+AUTH -[hidden]right- DOCS
+DOCS -[hidden]right- REQ
+REQ -[hidden]right- JOBS
+AUTH -[hidden]down- REV
+REV -[hidden]right- EXP
+EXP -[hidden]right- ADM
+
+UI - -> PROXY : HTTPS (REST, SSE)
+PROXY - -> API : routes /api/v1/*
+API - -> DB : SQL (each module owns its tables)
+JOBS ..> DB : enqueue job
+PIPE - -> DB : claim job (SKIP LOCKED),\nwrite results in one transaction
+PIPE - -> PROV
+EVAL - -> PROV
+PROV - -> LLM : HTTP /v1/chat/completions\n(JSON-schema output)
+PIPE - -> EMB : embeddings\n(dedupe, RAG)
+@enduml
+
+@startuml 03-component
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam component {
+  BackgroundColor #F5F8FC
+  BorderColor #1F3A5F
+}
+
+title Component Diagram (draft) — AI Test Case Generator
+
+node "Browser" {
+  [1 Web UI (Next.js)\nupload · progress · review ·\ntraceability · export  (C)] as UI
+}
+
+node "Application server (Docker Compose)" {
+  [2 Reverse proxy (Caddy, TLS) (B)] as PROXY
+  package "Backend API (FastAPI) — modular monolith" as API {
+    [3 Auth & Users (B)] as AUTH
+    [4 Documents & Parser (B)] as DOCS
+    [5 Requirements &\nQuality gate (A + B)] as REQ
+    [6 Generation API\n& Jobs (B)] as JOBS
+    [9 Review &\nAudit log (C + B)] as REV
+    [10 Export (CSV, XLSX,\nGherkin, JSON) (B)] as EXP
+    [11 Admin &\nMetrics (B)] as ADM
+  }
+  package "Worker" as WK {
+    [7 AI pipeline:\nretrieve → generate →\nvalidate → verify (A)] as PIPE
+    [8 LLMProvider\ninterface (A)] as PROV
+    [12 Evaluation\nharness (A)] as EVAL
+  }
+  database "13 PostgreSQL + pgvector (B)\nusers, documents, requirements,\njobs, test_cases, links, audit_log" as DB
+}
+
+node "GPU host (private network)" {
+  [LLM server (Ollama / vLLM)\nOpenAI-compatible API] as LLM
+  [Embedding model] as EMB
+}
+
+AUTH -[hidden]right- DOCS
+DOCS -[hidden]right- REQ
+REQ -[hidden]right- JOBS
+AUTH -[hidden]down- REV
+REV -[hidden]right- EXP
+EXP -[hidden]right- ADM
+
+UI - -> PROXY : HTTPS (REST, SSE)
+PROXY - -> API : routes /api/v1/*
+API - -> DB : SQL (each module owns its tables)
+JOBS ..> DB : enqueue job
+PIPE - -> DB : claim job (SKIP LOCKED),\nwrite results in one transaction
+PIPE - -> PROV
+EVAL - -> PROV
+PROV - -> LLM : HTTP /v1/chat/completions\n(JSON-schema output)
+PIPE - -> EMB : embeddings\n(dedupe, RAG)
+@enduml
+
+PlantUML version 1.2022.12(Mon Oct 24 00:12:26 ALMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

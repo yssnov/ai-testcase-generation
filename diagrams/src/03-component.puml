@@ -1,0 +1,59 @@
+@startuml 03-component
+' Component diagram (DRAFT for pre-defense-1).
+' Owners: A = Nuraly Abat (AI pipeline & evaluation), B = Sultan Muratbek (backend, data, DevOps), C = Kaisar Yessenov (frontend, UX, QA)
+' Numbers 1-13 = module numbers in the report (section 10.1).
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam component {
+  BackgroundColor #F5F8FC
+  BorderColor #1F3A5F
+}
+
+title Component Diagram (draft) — AI Test Case Generator
+
+node "Browser" {
+  [1 Web UI (Next.js)\nupload · progress · review ·\ntraceability · export  (C)] as UI
+}
+
+node "Application server (Docker Compose)" {
+  [2 Reverse proxy (Caddy, TLS) (B)] as PROXY
+  package "Backend API (FastAPI) — modular monolith" as API {
+    [3 Auth & Users (B)] as AUTH
+    [4 Documents & Parser (B)] as DOCS
+    [5 Requirements &\nQuality gate (A + B)] as REQ
+    [6 Generation API\n& Jobs (B)] as JOBS
+    [9 Review &\nAudit log (C + B)] as REV
+    [10 Export (CSV, XLSX,\nGherkin, JSON) (B)] as EXP
+    [11 Admin &\nMetrics (B)] as ADM
+  }
+  package "Worker" as WK {
+    [7 AI pipeline:\nretrieve → generate →\nvalidate → verify (A)] as PIPE
+    [8 LLMProvider\ninterface (A)] as PROV
+    [12 Evaluation\nharness (A)] as EVAL
+  }
+  database "13 PostgreSQL + pgvector (B)\nusers, documents, requirements,\njobs, test_cases, links, audit_log" as DB
+}
+
+node "GPU host (private network)" {
+  [LLM server (Ollama / vLLM)\nOpenAI-compatible API] as LLM
+  [Embedding model] as EMB
+}
+
+AUTH -[hidden]right- DOCS
+DOCS -[hidden]right- REQ
+REQ -[hidden]right- JOBS
+AUTH -[hidden]down- REV
+REV -[hidden]right- EXP
+EXP -[hidden]right- ADM
+
+UI --> PROXY : HTTPS (REST, SSE)
+PROXY --> API : routes /api/v1/*
+API --> DB : SQL (each module owns its tables)
+JOBS ..> DB : enqueue job
+PIPE --> DB : claim job (SKIP LOCKED),\nwrite results in one transaction
+PIPE --> PROV
+EVAL --> PROV
+PROV --> LLM : HTTP /v1/chat/completions\n(JSON-schema output)
+PIPE --> EMB : embeddings\n(dedupe, RAG)
+@enduml
