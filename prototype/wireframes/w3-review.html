@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><title>W3 Review</title><link rel="stylesheet" href="wf.css"></head><body style="position:relative">
+<div class="app">
+ <div class="top"><span class="logo">▣ TestGen (local LLM)</span><span>Project: Online Banking v2 ▾ &nbsp; | &nbsp; EN · RU · KK &nbsp; | &nbsp; QA user ▾</span></div>
+ <div class="nav"><div>Projects</div><div>Documents</div><div>Generate</div><div class="on">Review</div><div>Traceability</div><div>Export</div><div style="margin-top:30px">Admin: models</div></div>
+ <div class="main">
+  <h1><span class="n">3</span>Review workspace</h1><div class="sub">Scenario S3 · UC-07 · FR-08 · keyboard: A accept · E edit · R reject · G regenerate</div>
+  <div class="row">
+   <div class="box" style="width:330px"><b>REQ-012</b><div style="margin-top:6px">The system shall lock an account after <u>5 failed logins</u> within <u>10 minutes</u>.</div>
+    <div style="margin-top:10px;color:#555">Pending 4 · Accepted 2 · Rejected 0</div>
+    <div style="margin-top:10px">◀ prev requirement &nbsp; next ▶</div></div>
+   <div class="col">
+    <div class="box"><div style="display:flex;justify-content:space-between"><b>TC-1201 Lock after 5th failed attempt within 10 min</b><span><span class="tag">BVA</span><span class="tag">P1</span></span></div>
+     <div style="margin-top:6px">Pre: active account · Steps: 1) enter wrong password 4× → 2) 5th wrong attempt at 09:59 → Expected: account locked, message shown</div>
+     <div style="margin-top:8px"><span class="btn s p">Accept</span><span class="btn s">Edit</span><span class="btn s">Reject</span><span class="btn s">Regenerate</span></div></div>
+    <div class="box"><div style="display:flex;justify-content:space-between"><b>TC-1202 No lock after 4 failed attempts</b><span><span class="tag">BVA</span><span class="tag">P1</span></span></div>
+     <div style="margin-top:6px">Steps: wrong password 4× within 10 min → Expected: account stays active</div>
+     <div style="margin-top:8px"><span class="btn s p">Accept</span><span class="btn s">Edit</span><span class="btn s">Reject</span><span class="btn s">Regenerate</span></div></div>
+    <div class="box warn" style="border-style:dashed"><div style="display:flex;justify-content:space-between"><b>TC-1203 Unlock by e-mail link after 30 minutes</b><span><span class="tag warn">⚠ not in requirement</span><span class="tag">P2</span></span></div>
+     <div style="margin-top:6px">Expected: account unlocked automatically after 30 min</div>
+     <div style="margin-top:8px"><span class="btn s">Accept</span><span class="btn s">Edit</span><span class="btn s p">Reject</span><span class="btn s">Regenerate</span></div></div>
+   </div>
+  </div>
+ </div>
+</div>
+<div class="note" style="left:30px;top:520px;width:180px"><b>A.</b> Underlined values come from the requirement; the reviewer sees why each case exists.</div>
+<div class="note" style="left:960px;top:600px"><b>B.</b> Verifier flags content not grounded in the requirement (invented "30 minutes") — hallucination check, FR-07.</div>
+<div class="wf-title">W3 · low-fidelity wireframe · DIP-__</div>
+</body></html>

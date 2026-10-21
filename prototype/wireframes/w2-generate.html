@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><title>W2 Generate</title><link rel="stylesheet" href="wf.css"></head><body style="position:relative">
+<div class="app">
+ <div class="top"><span class="logo">▣ TestGen (local LLM)</span><span>Project: Online Banking v2 ▾ &nbsp; | &nbsp; EN · RU · KK &nbsp; | &nbsp; QA user ▾</span></div>
+ <div class="nav"><div>Projects</div><div>Documents</div><div class="on">Generate</div><div>Review</div><div>Traceability</div><div>Export</div><div style="margin-top:30px">Admin: models</div></div>
+ <div class="main">
+  <h1><span class="n">2</span>Generate test cases</h1><div class="sub">Scenario S1 · UC-05, UC-06 · FR-05, FR-06, FR-07, FR-12</div>
+  <div class="row">
+   <div class="col box"><b>Selected requirements (12)</b>
+    <div style="margin-top:8px">☑ REQ-012 Account lock after 5 failed logins<br>☑ REQ-015 Daily transfer limit 1,000,000 KZT<br>☑ REQ-016 Transfer confirmation by SMS code<br>☐ REQ-013 Transfer page should load fast <span class="tag warn">⚠ flagged</span><br>…</div></div>
+   <div class="col box"><b>Test design techniques</b>
+    <div style="margin-top:8px">☑ Equivalence partitioning<br>☑ Boundary value analysis<br>☑ Decision table<br>☑ State transition<br>☑ Negative cases<br>☐ Security cases</div>
+    <div style="margin-top:10px"><b>Options</b><br>Max cases per requirement: [ 5 ▾ ] &nbsp; Use project context (RAG): ☑</div>
+    <div style="margin-top:12px"><span class="btn p">Generate</span><span class="btn">Cancel</span></div></div>
+  </div>
+  <div class="box"><b>Job #318 — running</b> &nbsp;<span class="tag">model: qwen3-14b (local)</span><span class="tag">prompt v3</span>
+   <div class="bar" style="margin:10px 0"></div>
+   <div>✔ REQ-012 → 6 cases (2 BVA, 2 state transition, 2 negative) · schema valid<br>✔ REQ-015 → 5 cases · 1 possible duplicate flagged<br>⟳ REQ-016 generating… (first token 2.1 s)<br>· 9 requirements queued</div></div>
+ </div>
+</div>
+<div class="note" style="left:960px;top:470px"><b>A.</b> Progress arrives by Server-Sent Events; the job keeps running if the page is closed (ADR-0004).</div>
+<div class="note" style="left:960px;top:610px"><b>B.</b> Model and prompt version are recorded per job for evaluation (FR-13).</div>
+<div class="wf-title">W2 · low-fidelity wireframe · DIP-__</div>
+</body></html>

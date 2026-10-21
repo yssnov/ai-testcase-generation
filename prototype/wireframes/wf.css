@@ -1,0 +1,29 @@
+/* Low-fidelity wireframe style: grayscale on purpose — this is about layout and flow, not visual design. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #222; background: #fff; }
+.app { display: grid; grid-template-columns: 210px 1fr; grid-template-rows: 52px 1fr; height: 800px; width: 1280px; }
+.top { grid-column: 1 / 3; display: flex; align-items: center; justify-content: space-between; padding: 0 18px; border-bottom: 2px solid #444; background: #f2f2f2; }
+.logo { font-weight: bold; }
+.nav { border-right: 2px solid #444; padding: 14px; background: #fafafa; }
+.nav div { padding: 8px 10px; margin-bottom: 4px; border: 1px dashed #999; border-radius: 4px; }
+.nav .on { background: #ddd; border-style: solid; border-color: #444; font-weight: bold; }
+.main { padding: 18px 22px; overflow: hidden; }
+h1 { font-size: 20px; margin: 0 0 4px; }
+.sub { color: #666; margin-bottom: 14px; }
+.box { border: 2px solid #444; border-radius: 6px; padding: 12px; margin-bottom: 12px; background: #fff; }
+.dash { border: 2px dashed #777; border-radius: 6px; padding: 18px; text-align: center; color: #555; background: #fafafa; }
+.btn { display: inline-block; border: 2px solid #333; border-radius: 4px; padding: 6px 12px; margin-right: 6px; background: #eee; font-weight: bold; }
+.btn.p { background: #333; color: #fff; }
+.btn.s { font-weight: normal; padding: 3px 8px; font-size: 12px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #888; padding: 6px 8px; text-align: left; vertical-align: top; }
+th { background: #e6e6e6; }
+.tag { display: inline-block; border: 1px solid #555; border-radius: 10px; padding: 1px 8px; font-size: 12px; margin-right: 4px; background: #f4f4f4; }
+.warn { border-style: dashed; }
+.row { display: flex; gap: 14px; }
+.col { flex: 1; }
+.bar { height: 14px; border: 1px solid #444; border-radius: 7px; background: linear-gradient(90deg, #888 62%, #fff 62%); }
+.note { position: absolute; background: #fff7c2; border: 1px solid #b9a800; padding: 6px 8px; font-size: 12px; width: 220px; border-radius: 4px; box-shadow: 2px 2px 0 #ccc; }
+.n { display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #222; color: #fff; text-align: center; font-size: 12px; line-height: 20px; margin-right: 4px; }
+.line { height: 9px; background: #ccc; border-radius: 4px; margin: 6px 0; }
+.wf-title { position: absolute; right: 18px; bottom: 10px; font-size: 12px; color: #777; }
