@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><title>W1 Upload and requirements</title><link rel="stylesheet" href="wf.css"></head><body style="position:relative">
+<div class="app">
+ <div class="top"><span class="logo">▣ TestGen (local LLM)</span><span>Project: Online Banking v2 ▾ &nbsp; | &nbsp; EN · RU · KK &nbsp; | &nbsp; QA user ▾</span></div>
+ <div class="nav"><div>Projects</div><div class="on">Documents</div><div>Generate</div><div>Review</div><div>Traceability</div><div>Export</div><div style="margin-top:30px">Admin: models</div></div>
+ <div class="main">
+  <h1><span class="n">1</span>Upload requirements document</h1><div class="sub">Scenario S2 · UC-02, UC-03, UC-04 · FR-02, FR-03, FR-04</div>
+  <div class="dash">Drag &amp; drop PDF / DOCX / MD / TXT (≤ 10 MB) or <span class="btn s">Browse…</span><br><small>Files are processed on this organisation's server only</small></div>
+  <div class="box" style="margin-top:12px">
+   <div style="display:flex;justify-content:space-between"><b>SRS_Online_Banking_v2.docx</b><span>42 requirements extracted · 7 flagged &nbsp;<span class="btn s">Re-extract</span></span></div>
+   <table style="margin-top:8px">
+    <tr><th style="width:90px">ID</th><th>Requirement</th><th style="width:110px">Type</th><th style="width:240px">Quality flags</th><th style="width:120px">Actions</th></tr>
+    <tr><td>REQ-012</td><td>The system shall lock an account after 5 failed logins within 10 minutes.</td><td>Functional</td><td>—</td><td><span class="btn s">Edit</span><span class="btn s">Split</span></td></tr>
+    <tr><td>REQ-013</td><td>The transfer page should load fast.</td><td>Non-functional</td><td><span class="tag warn">⚠ vague: "fast"</span><span class="tag warn">⚠ no value/unit</span></td><td><span class="btn s">Edit</span><span class="btn s">Split</span></td></tr>
+    <tr><td>REQ-014</td><td>The user can pay utilities and/or mobile services from any account.</td><td>Functional</td><td><span class="tag warn">⚠ compound "and/or"</span></td><td><span class="btn s">Edit</span><span class="btn s">Split</span></td></tr>
+    <tr><td>REQ-015</td><td>Daily transfer limit is 1,000,000 KZT per client.</td><td>Constraint</td><td>—</td><td><span class="btn s">Edit</span><span class="btn s">Split</span></td></tr>
+   </table>
+   <div style="margin-top:10px"><span class="btn p">Select for generation →</span><span class="btn">Download flag report</span></div>
+  </div>
+ </div>
+</div>
+<div class="note" style="left:960px;top:150px"><b>A.</b> Upload is validated (type, size) before parsing — NFR-SEC-03.</div>
+<div class="note" style="left:960px;top:560px"><b>B.</b> Flags warn before generation; the user may still generate. Ambiguity reduces test quality (L12).</div>
+<div class="wf-title">W1 · low-fidelity wireframe · DIP-__</div>
+</body></html>
