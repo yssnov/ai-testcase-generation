@@ -1,0 +1,42 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+
+# Models, datasets and large artefacts (keep out of Git; document how to obtain them)
+models/
+*.gguf
+*.safetensors
+data/raw/
+data/private/
+
+# Interview raw material and consent forms (never commit personal data)
+docs/02-relevance-evidence/raw/
+consent/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
