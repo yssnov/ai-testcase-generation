@@ -76,8 +76,8 @@ Exact versions are pinned in dependency files once code exists.
 
 ## Links
 
-- **Repository:** https://github.com/yssnov/ai-testcase-generator
-- **Task board (Notion, approved by the supervisor instead of YouTrack):** `https://app.notion.com/p/3fe7cd9b361e801fa81cf78258ea88b9?v=f33259171f464d609c45bbcfd45932df&source=copy_link` ← replace
+- **Repository:** https://github.com/yssnov/ai-testcase-generation
+- **Task board (Notion, approved by the supervisor instead of YouTrack):** https://app.notion.com/p/3fe7cd9b361e801fa81cf78258ea88b9?v=f33259171f464d609c45bbcfd45932df&source=copy_link
 - **Prototype (Figma, clickable):** https://www.figma.com/design/m2NAfVfFTXCA4SMN7yZp5F
 - **Documentation index:** [docs/README.md](docs/README.md)
 - **Diagrams:** [diagrams/](diagrams/)
