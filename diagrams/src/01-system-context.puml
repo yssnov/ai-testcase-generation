@@ -1,0 +1,30 @@
+@startuml 01-system-context
+!include <C4/C4_Context>
+' System context diagram (C4 level 1). Edit this file; export with:
+'   java -jar plantuml.jar -tsvg -o ../export diagrams/src/*.puml
+
+title System Context — AI Test Case Generator (local LLM)
+
+Person(qa, "QA engineer", "Uploads requirements, generates, reviews and exports test cases")
+Person(ba, "Business analyst", "Checks requirement quality flags")
+Person(admin, "Administrator", "Manages users, models, monitors jobs")
+
+System(tcg, "AI Test Case Generator", "Web system: extracts requirements, generates traceable test cases with a local LLM, supports human review and export")
+
+System_Ext(llm, "Local LLM server", "Ollama (dev) / vLLM (prod); open-weight model on the organisation's GPU; OpenAI-compatible API")
+System_Ext(tm, "Test management tool", "Jira/Xray, TestRail, Qase or spreadsheets; receives exported files")
+System_Ext(src, "Requirements sources", "SRS / PRD / user-story documents (PDF, DOCX, MD)")
+
+Rel(qa, tcg, "Uploads documents, reviews and exports test cases", "HTTPS")
+Rel(ba, tcg, "Reviews requirement quality flags", "HTTPS")
+Rel(admin, tcg, "Configures models, views job metrics", "HTTPS")
+Rel(src, qa, "Provides documents")
+Rel(tcg, llm, "Sends prompts, receives JSON test cases", "HTTP, private network")
+Rel(tcg, tm, "Exports CSV / XLSX / Gherkin / JSON", "file")
+
+SHOW_LEGEND()
+note bottom of llm
+  Trust boundary: requirement documents never
+  leave the organisation's infrastructure (C-01, NFR-PRIV-01)
+end note
+@enduml
