@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1118px" preserveAspectRatio="none" style="width:803px;height:1118px;background:#FFFFFF;" version="1.1" viewBox="0 0 803 1118" width="803px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.9395" id="_title" style="stroke:none;stroke-width:1.0;" width="311" x="239" y="5"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="301" x="244" y="23.5625">Use Case Diagram — AI Test Case Generator</text><!--MD5=[9e81e8e9b207a97542b819f3cc830322]
+cluster AI Test Case Generator--><g id="cluster_AI Test Case Generator"><rect fill="none" height="1068" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="379" x="223" y="44.9395"/><text fill="#000000" font-family="Arial" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="157" x="334" y="60.502">AI Test Case Generator</text></g><g id="elem_UC01"><ellipse cx="412.4455" cy="811.0285" fill="#F5F8FC" rx="68.4455" ry="16.0891" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="85" x="366.9455" y="815.0598">UC-01 Log in</text></g><g id="elem_UC02"><ellipse cx="412.6805" cy="725.0755" fill="#F5F8FC" rx="161.1805" ry="34.6361" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="255" x="282.4919" y="720.5461">UC-02 Upload requirements document</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="51" x="384.4919" y="737.4856">[FR-02]</text></g><g id="elem_UC03"><ellipse cx="412.3555" cy="204.9106" fill="#F5F8FC" rx="160.3555" ry="34.4711" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="253" x="282.8625" y="200.4701">UC-03 Review extracted requirements</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="51" x="383.8625" y="217.4095">[FR-03]</text></g><g id="elem_UC04"><ellipse cx="412.3512" cy="890.1097" fill="#F5F8FC" rx="126.3512" ry="27.6702" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="164" x="327.3512" y="885.6712">UC-04 View quality flags</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="51" x="383.8512" y="902.6107">[FR-04]</text></g><g id="elem_UC05"><ellipse cx="412.6342" cy="416.1663" fill="#F5F8FC" rx="131.6342" ry="28.7268" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="179" x="320.1342" y="411.7278">UC-05 Generate test cases</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="100" x="359.6342" y="428.6673">[FR-05, FR-06]</text></g><g id="elem_UC06"><ellipse cx="412.4337" cy="305.1262" fill="#F5F8FC" rx="141.4337" ry="30.6867" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="201" x="311.9337" y="299.7492">UC-06 Verify generated cases</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="207" x="308.9337" y="316.6887">(duplicates, grounding) [FR-07]</text></g><g id="elem_UC07"><ellipse cx="412.5216" cy="517.0438" fill="#F5F8FC" rx="173.5216" ry="37.1043" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="165" x="330.0216" y="511.6668">UC-07 Review test cases</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="284" x="270.5216" y="528.6063">(accept / edit / reject / regenerate) [FR-08]</text></g><g id="elem_UC08"><ellipse cx="412.4377" cy="622.027" fill="#F5F8FC" rx="153.4377" ry="33.0875" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="236" x="291.4377" y="617.5885">UC-08 View traceability &amp; coverage</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="51" x="383.9377" y="634.528">[FR-09]</text></g><g id="elem_UC09"><ellipse cx="412.6642" cy="107.9723" fill="#F5F8FC" rx="125.6642" ry="27.5328" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="162" x="328.6642" y="103.5338">UC-09 Export test cases</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="91" x="364.1642" y="120.4733">[FR-10, FR-11]</text></g><g id="elem_UC10"><ellipse cx="412.7229" cy="980.084" fill="#F5F8FC" rx="126.2229" ry="27.6446" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="153" x="336.2229" y="974.7071">UC-10 Configure model</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="167" x="329.2229" y="991.6465">&amp; view job history [FR-13]</text></g><g id="elem_UC11"><ellipse cx="412.5025" cy="1070.107" fill="#F5F8FC" rx="110.0025" ry="27.1675" style="stroke:#1F3A5F;stroke-width:0.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="138" x="340.5025" y="1065.6685">UC-11 Run evaluation</text><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="122" x="348.5025" y="1082.6079">on dataset [FR-14]</text></g><!--MD5=[70f4bfd7e1a7ec8861c885faf1f5edd5]
+entity QA--><g id="elem_QA"><ellipse cx="60" cy="494.4395" fill="#F1F1F1" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;"/><path d="M60,514.4395 C64,514.4395 67,514.4395 71,510.4395 C79,510.4395 87,518.4395 87,526.4395 L87,530.4395 C87,534.4395 83,538.4395 79,538.4395 L41,538.4395 C37,538.4395 33,534.4395 33,530.4395 L33,526.4395 C33,518.4395 41,510.4395 49,510.4395 C53,514.4395 56,514.4395 60,514.4395 " fill="#F1F1F1" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="82" x="19" y="553.502">QA engineer</text></g><!--MD5=[44fc838ed5bd1c3fe3fdabb2fcbac8de]
+entity BA--><g id="elem_BA"><ellipse cx="60" cy="785.4395" fill="#F1F1F1" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;"/><path d="M60,805.4395 C64,805.4395 67,805.4395 71,801.4395 C79,801.4395 87,809.4395 87,817.4395 L87,821.4395 C87,825.4395 83,829.4395 79,829.4395 L41,829.4395 C37,829.4395 33,825.4395 33,821.4395 L33,817.4395 C33,809.4395 41,801.4395 49,801.4395 C53,805.4395 56,805.4395 60,805.4395 " fill="#F1F1F1" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="108" x="6" y="844.502">Business analyst</text></g><!--MD5=[5bb58f447e60c14e9d23282c6a4405f4]
+entity ADM--><g id="elem_ADM"><ellipse cx="60" cy="957.4395" fill="#F1F1F1" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;"/><path d="M60,977.4395 C64,977.4395 67,977.4395 71,973.4395 C79,973.4395 87,981.4395 87,989.4395 L87,993.4395 C87,997.4395 83,1001.4395 79,1001.4395 L41,1001.4395 C37,1001.4395 33,997.4395 33,993.4395 L33,989.4395 C33,981.4395 41,973.4395 49,973.4395 C53,977.4395 56,977.4395 60,977.4395 " fill="#F1F1F1" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="88" x="16" y="1016.502">Administrator</text></g><!--MD5=[762d9b1ee2eb630aa40151fb5f0602e7]
+entity LLM--><g id="elem_LLM"><ellipse cx="722.5" cy="804.8789" fill="#F1F1F1" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;"/><path d="M722.5,824.8789 C726.5,824.8789 729.5,824.8789 733.5,820.8789 C741.5,820.8789 749.5,828.8789 749.5,836.8789 L749.5,840.8789 C749.5,844.8789 745.5,848.8789 741.5,848.8789 L703.5,848.8789 C699.5,848.8789 695.5,844.8789 695.5,840.8789 L695.5,836.8789 C695.5,828.8789 703.5,820.8789 711.5,820.8789 C715.5,824.8789 718.5,824.8789 722.5,824.8789 " fill="#F1F1F1" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="113" x="666" y="863.9414">Local LLM server</text><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="63" x="691" y="784.002">«system»</text></g><!--MD5=[c6ddddda358f072e4f19aa798de5fbe9]
+entity TM--><g id="elem_TM"><ellipse cx="722.5" cy="93.8789" fill="#F1F1F1" rx="16" ry="16" style="stroke:#181818;stroke-width:1.5;"/><path d="M722.5,113.8789 C726.5,113.8789 729.5,113.8789 733.5,109.8789 C741.5,109.8789 749.5,117.8789 749.5,125.8789 L749.5,129.8789 C749.5,133.8789 745.5,137.8789 741.5,137.8789 L703.5,137.8789 C699.5,137.8789 695.5,133.8789 695.5,129.8789 L695.5,125.8789 C695.5,117.8789 703.5,109.8789 711.5,109.8789 C715.5,113.8789 718.5,113.8789 722.5,113.8789 " fill="#F1F1F1" style="stroke:#181818;stroke-width:1.5;"/><text fill="#000000" font-family="Arial" font-size="14" lengthAdjust="spacing" textLength="147" x="649" y="152.9414">Test management tool</text><text fill="#000000" font-family="Arial" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="63" x="691" y="73.002">«system»</text></g><!--MD5=[af728c2cd2d254325c1fe14c6349bd63]
+link QA to UC01--><g id="link_QA_UC01"><path d="M72.01,557.3795 C90.56,616.9195 134.2,726.5595 215,776.9395 C251.69,799.8195 299.35,808.4695 338.54,811.3195 " fill="none" id="QA-to-UC01" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="343.77,811.6695,335.0647,807.0631,338.7817,811.3274,334.5174,815.0444,343.77,811.6695" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3969d75a2e2682dd97d47f4031a64f50]
+link QA to UC02--><g id="link_QA_UC02"><path d="M101.01,548.1595 C138.97,578.4895 192.33,623.1995 207,645.9395 C213.55,656.0995 206.3,663.5395 215,671.9395 C230.35,686.7695 249.4,697.5495 269.55,705.3595 " fill="none" id="QA-to-UC02" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="274.41,707.1895,267.3875,700.284,269.7284,705.4338,264.5785,707.7747,274.41,707.1895" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cbb3bb90da2c5f31a35042a48c9470e6]
+link QA to UC03--><g id="link_QA_UC03"><path d="M73.74,476.8595 C94.14,419.2995 139.67,313.8895 215,256.9395 C232.73,243.5295 253.63,233.5795 275.07,226.1795 " fill="none" id="QA-to-UC03" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="279.94,224.5495,270.1336,223.6362,275.2023,226.1477,272.6908,231.2164,279.94,224.5495" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5f1f1fba48084f8c7f7a35faae489a32]
+link QA to UC05--><g id="link_QA_UC05"><path d="M101.12,501.1995 C131.96,489.4495 175.78,473.4895 215,461.9395 C246.42,452.6795 281.1,444.0495 312.47,436.8195 " fill="none" id="QA-to-UC05" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="317.48,435.6795,307.8094,433.8139,312.609,436.8079,309.615,441.6075,317.48,435.6795" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d18af7393c243943fdadfef82d7958c7]
+link QA to UC07--><g id="link_QA_UC07"><path d="M101.21,516.9395 C134.32,516.9395 183.77,516.9395 233.5,516.9395 " fill="none" id="QA-to-UC07" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="238.63,516.9395,229.63,512.9395,233.63,516.9395,229.63,520.9395,238.63,516.9395" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8ecaf5c7b2d81b2ce326eb3dd7dadcdc]
+link QA to UC08--><g id="link_QA_UC08"><path d="M101.23,532.0795 C132.12,543.4495 175.97,559.0595 215,570.9395 C244,579.7695 275.7,588.4295 305.01,596.0295 " fill="none" id="QA-to-UC08" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="310.07,597.3395,302.3638,591.2064,305.2304,596.0832,300.3537,598.9498,310.07,597.3395" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[000308f943d8fd422040820174b30114]
+link QA to UC09--><g id="link_QA_UC09"><path d="M64.82,476.7095 C74.51,399.4795 107.5,231.1595 215,152.9395 C237.18,136.7995 264.19,126.3295 291.01,119.5595 " fill="none" id="QA-to-UC09" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="296.01,118.3395,286.3181,116.5879,291.1526,119.5252,288.2154,124.3597,296.01,118.3395" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1e2f34cba6fb6053407f7dfbed59cfef]
+link BA to UC01--><g id="link_BA_UC01"><path d="M114.23,808.3995 C174.15,808.9095 271.83,809.7395 338.76,810.3195 " fill="none" id="BA-to-UC01" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="343.92,810.3595,334.9546,806.2825,338.9202,810.3166,334.886,814.2822,343.92,810.3595" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cebdffd9d43d089681ff857050cea852]
+link BA to UC02--><g id="link_BA_UC02"><path d="M114.4,791.1795 C124.21,788.2895 134.38,785.4295 144,782.9395 C191.05,770.7695 243.2,759.0695 288.87,749.3995 " fill="none" id="BA-to-UC02" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="293.84,748.3495,284.2033,746.3163,288.9502,749.3932,285.8733,754.1401,293.84,748.3495" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1036467cb6965e906e79d8a8a663059b]
+link BA to UC04--><g id="link_BA_UC04"><path d="M114.23,820.3895 C168.92,833.1895 255.08,853.3395 320.59,868.6695 " fill="none" id="BA-to-UC04" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="325.66,869.8595,317.7988,863.9263,320.7897,868.7278,315.9882,871.7187,325.66,869.8595" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e86417ea730b2632890ecbd449e0f67f]
+link ADM to UC01--><g id="link_ADM_UC01"><path d="M95.04,939.9195 C123.76,908.9095 167.68,867.5395 215,844.9395 C253.72,826.4495 301,817.8895 339.49,813.9895 " fill="none" id="ADM-to-UC01" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="344.61,813.4895,335.2637,810.3836,339.6337,813.9756,336.0416,818.3456,344.61,813.4895" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f2aeeef0e7f82e4bd55d88af897bea0b]
+link ADM to UC10--><g id="link_ADM_UC10"><path d="M104.33,979.9395 C148.33,979.9395 218.67,979.9395 280.94,979.9395 " fill="none" id="ADM-to-UC10" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="286.18,979.9395,277.18,975.9395,281.18,979.9395,277.18,983.9395,286.18,979.9395" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[09c8f0596f04e0f1f852d912de51c40d]
+link ADM to UC11--><g id="link_ADM_UC11"><path d="M104.29,993.3295 C135.05,1002.6695 177.4,1015.1495 215,1024.9395 C250.51,1034.1895 289.89,1043.4095 324.02,1051.0695 " fill="none" id="ADM-to-UC11" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="329.01,1052.1895,321.1121,1046.3053,324.1328,1051.0881,319.35,1054.1089,329.01,1052.1895" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5d08c929880476e35e12f65f7030759]
+link UC03 to UC04--><g id="link_UC03_UC04"><path d="M268.45,220.2195 C247.97,228.3395 229.11,240.0795 215,256.9395 C96.41,398.6395 166.08,487.4495 183,671.4395 C190.14,749.0895 161.13,787.5695 215,843.9395 C233.49,863.2895 258.41,875.1995 284.32,882.3895 " fill="none" id="UC03-to-UC04" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="289.17,883.6795,281.4807,877.5252,284.3339,882.4098,279.4493,885.263,289.17,883.6795" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="61" x="145" y="668.0332">«include»</text></g><!--MD5=[ecd10f517b8a231d4f79af415e7607b7]
+link UC05 to UC06--><g id="link_UC05_UC06"><path d="M412.5,387.3495 C412.5,373.1595 412.5,355.8595 412.5,340.7795 " fill="none" id="UC05-to-UC06" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="412.5,335.7695,408.5,344.7695,412.5,340.7695,416.5,344.7695,412.5,335.7695" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="Arial" font-size="13" lengthAdjust="spacing" textLength="61" x="370.5" y="366.5332">«include»</text></g><!--MD5=[8b62c36f6f66bb7b19ec19ef83f93f98]
+link UC05 to LLM--><g id="link_UC05_LLM"><path d="M537.62,424.8095 C564.09,431.8695 590.05,443.3895 610,461.9395 C695.97,541.8695 716.12,686.9395 720.54,765.2895 " fill="none" id="UC05-to-LLM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="720.81,770.3495,724.3425,761.1559,720.5532,765.3561,716.353,761.5668,720.81,770.3495" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[993239beb220ebfe1f27bc9aad841ca1]
+link UC11 to LLM--><g id="link_UC11_LLM"><path d="M518.51,1062.5995 C550.36,1056.1995 583.81,1044.8495 610,1024.9395 C660.08,986.8695 690.35,919.5995 706.46,872.3095 " fill="none" id="UC11-to-LLM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="708.07,867.5095,701.3964,874.7526,706.4674,872.2457,708.9743,877.3167,708.07,867.5095" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fe33ed9de2b97657f69c5078b49f9d3d]
+link UC09 to TM--><g id="link_UC09_TM"><path d="M538.33,107.9395 C573.95,107.9395 611.72,107.9395 643.65,107.9395 " fill="none" id="UC09-to-TM" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="648.73,107.9395,639.73,103.9395,643.73,107.9395,639.73,111.9395,648.73,107.9395" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6b606f24ac7dca7307676454f549dfad]
+@startuml 02-use-case
+' Use case diagram. IDs in brackets refer to requirements in docs/06.
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+skinparam defaultFontName Arial
+skinparam usecase {
+  BackgroundColor #F5F8FC
+  BorderColor #1F3A5F
+}
+
+title Use Case Diagram — AI Test Case Generator
+
+actor "QA engineer" as QA
+actor "Business analyst" as BA
+actor "Administrator" as ADM
+actor "Local LLM server" as LLM <<system>>
+actor "Test management tool" as TM <<system>>
+
+rectangle "AI Test Case Generator" {
+  usecase "UC-01 Log in" as UC01
+  usecase "UC-02 Upload requirements document\n[FR-02]" as UC02
+  usecase "UC-03 Review extracted requirements\n[FR-03]" as UC03
+  usecase "UC-04 View quality flags\n[FR-04]" as UC04
+  usecase "UC-05 Generate test cases\n[FR-05, FR-06]" as UC05
+  usecase "UC-06 Verify generated cases\n(duplicates, grounding) [FR-07]" as UC06
+  usecase "UC-07 Review test cases\n(accept / edit / reject / regenerate) [FR-08]" as UC07
+  usecase "UC-08 View traceability & coverage\n[FR-09]" as UC08
+  usecase "UC-09 Export test cases\n[FR-10, FR-11]" as UC09
+  usecase "UC-10 Configure model\n& view job history [FR-13]" as UC10
+  usecase "UC-11 Run evaluation\non dataset [FR-14]" as UC11
+}
+
+QA - -> UC01
+QA - -> UC02
+QA - -> UC03
+QA - -> UC05
+QA - -> UC07
+QA - -> UC08
+QA - -> UC09
+BA - -> UC01
+BA - -> UC02
+BA - -> UC04
+ADM - -> UC01
+ADM - -> UC10
+ADM - -> UC11
+
+UC03 .> UC04 : <<include>>
+UC05 .> UC06 : <<include>>
+UC05 - -> LLM
+UC11 - -> LLM
+UC09 - -> TM
+@enduml
+
+@startuml 02-use-case
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+skinparam defaultFontName Arial
+skinparam usecase {
+  BackgroundColor #F5F8FC
+  BorderColor #1F3A5F
+}
+
+title Use Case Diagram — AI Test Case Generator
+
+actor "QA engineer" as QA
+actor "Business analyst" as BA
+actor "Administrator" as ADM
+actor "Local LLM server" as LLM <<system>>
+actor "Test management tool" as TM <<system>>
+
+rectangle "AI Test Case Generator" {
+  usecase "UC-01 Log in" as UC01
+  usecase "UC-02 Upload requirements document\n[FR-02]" as UC02
+  usecase "UC-03 Review extracted requirements\n[FR-03]" as UC03
+  usecase "UC-04 View quality flags\n[FR-04]" as UC04
+  usecase "UC-05 Generate test cases\n[FR-05, FR-06]" as UC05
+  usecase "UC-06 Verify generated cases\n(duplicates, grounding) [FR-07]" as UC06
+  usecase "UC-07 Review test cases\n(accept / edit / reject / regenerate) [FR-08]" as UC07
+  usecase "UC-08 View traceability & coverage\n[FR-09]" as UC08
+  usecase "UC-09 Export test cases\n[FR-10, FR-11]" as UC09
+  usecase "UC-10 Configure model\n& view job history [FR-13]" as UC10
+  usecase "UC-11 Run evaluation\non dataset [FR-14]" as UC11
+}
+
+QA - -> UC01
+QA - -> UC02
+QA - -> UC03
+QA - -> UC05
+QA - -> UC07
+QA - -> UC08
+QA - -> UC09
+BA - -> UC01
+BA - -> UC02
+BA - -> UC04
+ADM - -> UC01
+ADM - -> UC10
+ADM - -> UC11
+
+UC03 .> UC04 : <<include>>
+UC05 .> UC06 : <<include>>
+UC05 - -> LLM
+UC11 - -> LLM
+UC09 - -> TM
+@enduml
+
+PlantUML version 1.2022.12(Mon Oct 24 00:12:26 ALMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
