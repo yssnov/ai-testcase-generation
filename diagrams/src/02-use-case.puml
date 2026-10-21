@@ -1,0 +1,53 @@
+@startuml 02-use-case
+' Use case diagram. IDs in brackets refer to requirements in docs/06.
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+skinparam defaultFontName Arial
+skinparam usecase {
+  BackgroundColor #F5F8FC
+  BorderColor #1F3A5F
+}
+
+title Use Case Diagram — AI Test Case Generator
+
+actor "QA engineer" as QA
+actor "Business analyst" as BA
+actor "Administrator" as ADM
+actor "Local LLM server" as LLM <<system>>
+actor "Test management tool" as TM <<system>>
+
+rectangle "AI Test Case Generator" {
+  usecase "UC-01 Log in" as UC01
+  usecase "UC-02 Upload requirements document\n[FR-02]" as UC02
+  usecase "UC-03 Review extracted requirements\n[FR-03]" as UC03
+  usecase "UC-04 View quality flags\n[FR-04]" as UC04
+  usecase "UC-05 Generate test cases\n[FR-05, FR-06]" as UC05
+  usecase "UC-06 Verify generated cases\n(duplicates, grounding) [FR-07]" as UC06
+  usecase "UC-07 Review test cases\n(accept / edit / reject / regenerate) [FR-08]" as UC07
+  usecase "UC-08 View traceability & coverage\n[FR-09]" as UC08
+  usecase "UC-09 Export test cases\n[FR-10, FR-11]" as UC09
+  usecase "UC-10 Configure model\n& view job history [FR-13]" as UC10
+  usecase "UC-11 Run evaluation\non dataset [FR-14]" as UC11
+}
+
+QA --> UC01
+QA --> UC02
+QA --> UC03
+QA --> UC05
+QA --> UC07
+QA --> UC08
+QA --> UC09
+BA --> UC01
+BA --> UC02
+BA --> UC04
+ADM --> UC01
+ADM --> UC10
+ADM --> UC11
+
+UC03 .> UC04 : <<include>>
+UC05 .> UC06 : <<include>>
+UC05 --> LLM
+UC11 --> LLM
+UC09 --> TM
+@enduml
