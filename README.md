@@ -31,8 +31,8 @@ Evidence for these needs: see [docs/02-relevance-evidence](docs/02-relevance-evi
 
 | Member | Role | Owns |
 |---|---|---|
-| Nuraly Abat (`@github-handle`) | **A — AI pipeline & evaluation** | LLM provider layer, prompts, generation/verification pipeline, traceability, dataset, model benchmark |
-| Sultan Muratbek (`@github-handle`) | **B — Backend, data & DevOps** | Document parser, API, database, queue/worker, security, CI/CD, deployment, load tests |
+| Nuraly Abat (`@wickylinn`) | **A — AI pipeline & evaluation** | LLM provider layer, prompts, generation/verification pipeline, traceability, dataset, model benchmark |
+| Sultan Muratbek (`@mvxyqfxt`) | **B — Backend, data & DevOps** | Document parser, API, database, queue/worker, security, CI/CD, deployment, load tests |
 | Kaisar Yessenov (`@yssnov`) | **C — Frontend, UX & QA** | UX research, prototype, web app, review/export flow, test strategy, e2e tests, user study |
 | Almas Ospanov | **Supervisor** | Review of key deliverables and decisions ([feedback log](docs/11-supervisor-feedback-log.md)) |
 
@@ -77,7 +77,7 @@ Exact versions are pinned in dependency files once code exists.
 ## Links
 
 - **Repository:** https://github.com/yssnov/ai-testcase-generator
-- **Task board (Notion, approved by the supervisor instead of YouTrack):** `<Notion board URL>` ← replace
+- **Task board (Notion, approved by the supervisor instead of YouTrack):** `https://app.notion.com/p/3fe7cd9b361e801fa81cf78258ea88b9?v=f33259171f464d609c45bbcfd45932df&source=copy_link` ← replace
 - **Prototype (Figma, clickable):** https://www.figma.com/design/m2NAfVfFTXCA4SMN7yZp5F
 - **Documentation index:** [docs/README.md](docs/README.md)
 - **Diagrams:** [diagrams/](diagrams/)
