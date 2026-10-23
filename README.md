@@ -48,11 +48,11 @@ Details: [docs/01-project-proposal.md](docs/01-project-proposal.md).
 | Stage | Status |
 |---|---|
 | Proposal, scope | 🟢 ready for review |
-| Relevance evidence (3–5 interviews) | 🟡 interviews in progress |
+| Relevance evidence (3–5 interviews) | 🟢 3 interviews completed and synthesised (H2–H5 verified); P4–P5 planned before pre-defense-2 |
 | Literature review (27 publications + 3 standards) | 🟢 ready for review |
 | Existing systems comparison (5 systems × 9 criteria) | 🟡 "Not stated" cells to confirm |
 | Technology comparison (6 decisions, 4 ADRs) | 🟢 ready for review |
-| Requirements and acceptance criteria (14 FR, 23 NFR) | 🟢 ready for review; update after interviews |
+| Requirements and acceptance criteria (14 FR, 23 NFR) | 🟢 ready for review; interview impact recorded in 02 (Table 2.3) |
 | Architecture diagrams (context, use case, component) | 🟢 ready for review |
 | UX prototype | 🟢 clickable Figma prototype (4 screens); user test with 3 people in progress |
 | Verification and evaluation plan | 🟢 ready for review |
