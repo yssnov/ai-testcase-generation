@@ -1,4 +1,4 @@
-# AI-Based Test Case Generator from Requirements (Local LLM)
+# AI-Based Test Case Generator (Local LLM)
 
 > **Diploma project (group), Astana IT University, 2026–2027**
 > **EN:** Development of an AI-Based System for Automated Generation of Software Test Cases from Requirements Documents Using a Local Language Model
